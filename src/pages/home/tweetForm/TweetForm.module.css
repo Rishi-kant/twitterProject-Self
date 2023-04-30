@@ -1,0 +1,58 @@
+
+.container{
+    width: 100%;
+    height: 30vh;
+    border: 1px solid #CAD5E2;
+
+   
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.textArea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #1B98F5;
+}
+.lowerPart{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.emogies{
+    font-size: 1.5rem;
+    color:#5DA3FA ;
+    margin-right:1rem ;
+    
+}
+.textField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textarea{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color:#5DA3FA ;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.emogeStyle{
+    display: flex;
+    justify-content: space-between;
+}
+

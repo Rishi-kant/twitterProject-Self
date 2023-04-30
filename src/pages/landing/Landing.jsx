@@ -1,16 +1,18 @@
+import React from "react";
+import Navbar from "../../components/Navbar";
+import Feeds from "../home/feeds/Feeds";
 
-
-import React from 'react'
-import Navbar from '../../components/Navbar'
-
+import style from "./Landing.module.css";
 
 function Landing() {
   return (
-    <div>
-       <h1>This is Landing page</h1>
-       <Navbar/>
+    <div className={style.container}>
+      <div className={style.MiddleContainer}>
+        <Feeds />
+        <Navbar />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Landing
+export default Landing;

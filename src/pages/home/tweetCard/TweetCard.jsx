@@ -4,17 +4,25 @@ import style from "./TweetCard.module.css";
 
 import { AiFillHeart, AiOutlineHeart, AiOutlineRetweet } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 
 function TweetCard(props) {
   const tweet = props.tweet;
   return (
     <div className={style.container}>
       <div>
-        <h3>{tweet.tweetedBy.name}</h3>
+       
+        <h3> <CgProfile  className={style.pic} />{tweet.tweetedBy.name}</h3>
+         <div className={style.content}>
         <p className={style.content}>{tweet.content}</p>
+        </div>
       </div>
 
-      <img className={`${style.image} ${style.hand}`} src={tweet.image}  onDoubleClick={props.onToggleLike}/>
+      <img
+        className={`${style.image} ${style.hand}`}
+        src={tweet.image}
+        onDoubleClick={props.onToggleLike}
+      />
       <div className={style.TweetData}>
         <div className={`${style.col} ${style.hand}`}>
           <FaRegComment />

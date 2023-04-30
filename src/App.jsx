@@ -36,12 +36,13 @@ function App() {
  
   return (
     <>
-      {/* <Routes>
+      <Routes>
         <Route  path="/" element={<Landing/>}/>
+        <Route  path="/home" element={<Home />}/>
         <Route  path="/login" element={<Login/>}/>
         <Route  path="/signup" element={<SignUp/>}/>
-      </Routes> */}
-      <Home />
+      </Routes>
+      
     </>
   );
 }
