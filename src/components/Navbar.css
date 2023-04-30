@@ -1,0 +1,125 @@
+.icon{
+    color: rgb(29, 155, 240);;
+    height: 30px;
+    width: 30px;
+   margin-top: -150px;
+   text-align: center;
+   margin-left: 140px;
+}
+.text{
+    color: black;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.google{
+    height: 20px;
+    width: 20px;
+    margin-right: 3%;
+}
+.btn{
+    width: 300;
+    height: 40;
+    border:"1px solid #dadce0";
+     background-color: 'white';
+     border-radius: "50px";
+     color:"black";
+     font-family: "Google Sans arial,sans-serif";
+ font-size: 14;
+ letter-spacing: 0.25;
+}
+
+.hrr{
+    color: black;
+    border:"2px solid red";
+}
+span{
+    color: rgb(29, 155, 240) ;
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+
+}
+
+.link{
+    color: rgb(29, 155, 240) ;
+}
+.link:hover{
+    color: rgb(29, 155, 240) ;
+}
+.p{
+    margin-top: 6%;
+}
+
+.cross{
+   
+   
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar{
+   
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+  justify-content: space-between;
+   background-color: rgb(29, 155, 240);
+   color: white;
+   position: fixed;
+ z-index: 99;
+}
+
+.navLink{
+    border: 1px solid rgb(162, 200, 238);
+   
+   
+    color: white;
+    border-radius: 100px;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+}
+.navLink:hover{
+    color: white;
+    background-color: lightblue;
+    opacity: 0.3;
+}
+.navLink:nth-child(2n){
+    background-color: white;
+    color: black;
+}
+
+.msg{
+    color: white;
+  text-decoration: none;
+  
+}
+
+.textNavbar{
+    margin-left: 22%;
+    margin-top: 1%;
+   
+   
+}
+
+.yellow{
+    position: absolute;
+    right: 150px;
+    top:15px;
+    
+  
+    width: 250px;
+    display: flex;
+   
+    justify-content: space-evenly;
+    
+}
