@@ -95,6 +95,7 @@ const Login = () => {
   }
   function handleForm() {
     setShowForm(false);
+    Navigate("/")
   }
 
   function handlePasswordSumbit(e) {

@@ -15,8 +15,8 @@ function Home() {
     <div className={style.container}>
         <div className={style.MiddleContainer}>
          <HomeNav/>
-         {/* <Feeds/> */}
          <TweetForm/>
+         <Feeds/>
         </div>
     </div>
   )
